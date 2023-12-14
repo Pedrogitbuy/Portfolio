@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: red ;
+}
+
+.navbar{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: BLACK;
+    height: 7vh;
+}
+
+
+button {
+    padding: 20px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: black;
+    box-shadow: white(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+  }
+  
+  button:hover {
+    letter-spacing: 3px;
+    background-color: black(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: white 0px 7px 29px 0px;
+  }
+  
+  button:active {
+    letter-spacing: 3px;
+    background-color: black(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: white 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+  }
+  
+
+
+.navbar div span{
+    font-size: 1.9rem;
+    padding: 50px;
+}
+
+
+header {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+.card h2{
+  height: 100%;
+}
+
+
+
+
+h1:active{
+    background-color: black(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: white 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+
+
+h2:active{
+  background-color: black(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: white 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+
+
+
+.caption {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  margin-left: 10px; /* ajuste conforme necessário */
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #fff;
+  /* outras estilizações conforme necessário */
+}
+
+
+.cardP {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  position: relative;
+  padding: 200px;
+}
+
+.card-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-conic-gradient(var(--bg) 0.0000001%, var(--grey) 0.000104%) 60% 60%/600% 600%;
+  filter: opacity(10%) contrast(105%);
+}
+
+
+
+
+      
+section {
+  section {
+    height: 300px;
+    transition: height 0.5s ease; 
+  }
+  
+}
+
+
+h2{
+  justify-content: center;
+  align-items: collunm;
+  font-size: 1.7rem;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif; /* Nova fonte para o título */
+}
+
+
+
+
+
+footer {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 9px;
+}
